@@ -1,0 +1,582 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+    overflow-x: hidden;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+ul{
+    padding: 0%;
+    margin: 0px;
+}
+/* .........start header styling.............. */
+header{
+    width: 100%;
+    height: auto;
+    background-image: url("../images/carousel-1.jpg");
+    background-size:cover;
+    box-shadow: 0px 0px 10px 350px #33211d8a inset;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+nav{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+.fa-bars{
+    font-size: 40px;
+    color: #fff;
+    display: none !important;
+    position: absolute;
+    right:5px;
+    top: 15px;
+}
+.hidden-ul{
+    width: 130px;
+    display: none;
+    background-color: #33211d;
+    margin: 0px;
+    padding: 10px 0px;
+    position: absolute;
+    right: 0px;
+    line-height: 18px;
+}
+.hidden-ul li{
+    transition: 1s;
+}
+.hidden-ul a{
+    font-size: 15px;
+}
+.hidden-ul li:hover{
+    margin-left: 8px;
+}
+.fa-bars:hover .hidden-ul{
+    display: block;
+}
+.logo{
+    font-size: 50px;
+    padding: 10px 0px;
+}
+.logo a{
+    color: #fff;
+}
+.first-ul{
+    display: flex;
+    padding-top: 20px;
+}
+.nav-a{
+    color: #fff;
+    padding: 20px;
+    font-size: 20px;
+}
+.nav-a:hover{
+    color: #DA9F5B;
+}
+.contain{
+    height: 450px;
+    margin: 20px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.contain p{
+    color: #DA9F5B;
+    font-size: 30px;
+    margin: 0px;
+}
+.contain h1{ 
+    font-size:120px;
+    color: #fff;
+    margin: 10px 0px;
+}
+.contain span{
+    color: #fff;
+    font-size: 30px;
+}
+/* .......start section one ..........*/
+.one,.two,.four,.six {
+    width: 95%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 30px 0px;
+    text-align: center;
+}
+.before{
+    width: 10%;
+    height: 110px;
+    margin: auto;
+}
+.before::before{
+    content: "";
+    background-color: #DA9F5B;
+    width: 0px;
+    height: 100px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: transparent;
+    position: absolute;
+}
+.one h3,.two h2,.four h3,.six h3{
+    margin:20px 0px;
+    color: #DA9F5B;
+    font-weight: lighter;
+    font-size: 25px;
+}
+.one span,.two span,.four span,.six span{
+    margin:0px;
+    font-size: 60px;
+    color: #33211d;
+}
+.con-1{
+    display: flex;
+}
+.left{
+    width: 28%;
+    text-align: start;
+    padding-left: 3%;
+    line-height: 25px;
+}
+.left h2,.right h2{
+    font-size: 35px;
+    color: #33211d;
+}
+.p1{
+    color: #33211d;
+    font-size: 20px;
+}
+.p2{
+    color: #555;
+}
+.left button{
+    width: 140px;
+    height: 40px;
+    font-size: 18px;
+    color: #fff;
+    background-color: #33211d;
+    border: none;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.left button:hover{
+    background-color: black;
+}
+.center{
+    width: 35%;
+}
+.center img{
+    width: 100%;
+}
+.right{
+    width: 28%;
+    text-align: start;
+    line-height: 25px;
+}
+.right li{
+    font-size: 20px;
+    line-height: 40px;
+    font-weight: lighter;
+}
+.right li i{
+    color: #DA9F5B;
+    margin-right: 10px;
+    font-size: 22px;
+    font-weight: bold;
+}
+.right button{
+    width: 140px;
+    height: 40px;
+    font-size: 18px;
+    color: #33211d;
+    background-color: #DA9F5B;
+    border: none;
+    margin: 20px 0px 0px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.right button:hover{
+    background-color: #ed9c3f;
+}
+/* .......end section one ..........*/
+/* .......start section two ..........*/
+.container{
+    width: 95%;
+    margin: auto;
+    display: flex;
+    justify-content:space-evenly ;
+    flex-wrap: wrap;
+}
+.set{
+    width: 45%;
+    display: flex;
+    justify-content:space-evenly ;
+    margin: 20px 10px;
+}
+.img{
+    width: 45%;
+}
+.img img{
+    width: 85%;
+    margin: auto;
+}
+.words{
+    width: 55%;
+    text-align: start;
+}
+.words h3{
+    font-size: 23px;
+    font-weight: 100;
+    margin-top: 0px;
+}
+.fa{
+    color: #33211d;
+    background-color: #DA9F5B;
+    width: 50px;
+    height: 35px;
+    border-radius: 50%;
+    text-align: center;
+    padding-top: 15px;
+    margin-right: 10px;
+}
+.words p{
+    color: #555;
+    line-height: 25px;
+    font-size: 15px;
+}
+/* .......end section two ..........*/
+/* .......start section three ..........*/
+.three{
+    width: 100%;
+    height: 500px;
+    background-image: url("../images/bg.jpg");
+    background-size: 100%;
+    position: relative;
+    box-shadow: 0 0 0px 250px #33211dd8 inset;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.three::before{
+    content: "";
+    width: 100%;
+    height: 30px;
+    background-image: url("../images/overlay-top.png");
+    position: absolute;
+    top: -15px;
+}
+.three::after{
+    content: "";
+    width: 100%;
+    height: 30px;
+    background-image: url("../images/overlay-bottom.png");
+    position: absolute;
+    bottom: -16px;
+}
+.offer{
+    font-size: 60px;
+    color: #DA9F5B;
+    font-weight: bold;
+}
+.three h3{
+    font-size: 40px;
+    color: #fff;
+    margin: 0px;
+}
+.three p{
+    font-size: 30px;
+    color: #fff;
+}
+#email{
+    width: 260px;
+    height: 25px;
+    border: none;
+    padding:20px;
+    font-size:20px;
+    outline: none;
+    font-weight: lighter;
+}
+#sign{
+    width: 100px;
+    height: 65px;
+    margin-left: -10px;
+    font-size: 20px;
+    background-color: #DA9F5B;
+    border: none;
+    cursor: pointer;
+    transition: 0.5s;
+}
+#sign:hover{
+    background-color: #ed9c3f;
+}
+/* .......end section three ..........*/
+/* .......start section four ..........*/
+.four{
+    padding: 50px 0px;
+}
+.menu{
+    width: 95%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.hot,.cold{
+    width: 50%;
+    text-align: start;
+}
+.hot h2{
+    margin-left: 5%;
+    margin-bottom: 50px;
+    font-size: 40px;
+    color: #33211d;
+}
+.order{
+    display: flex;
+    justify-content: space-around;
+    text-align: start;
+    margin: 30px 0px;
+}
+.menu-img{
+    width: 22%;
+    position: relative;
+}
+.menu-img h4{
+    position: absolute;
+    top: -30px;
+    right: 0px;
+    z-index: 50;
+    background-color: #DA9F5B;
+    color: #33211d;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 50%;
+    font-weight: lighter;
+}
+.menu-img img{
+    width: 100%;
+    position: relative;
+    z-index: 10;
+    border-radius: 50%;
+}
+.discrib{
+    width: 70%;
+}
+.discrib h4{
+    font-size: 25px;
+    margin:20px 0px 0px;
+    color: #33211d;
+}
+.discrib p{
+    font-size: 18px;
+    color: #555;
+    font-weight: lighter;
+}
+/* .......section five..... */
+.five{
+    width: 90%;
+    margin: auto;
+    height: 600px;
+    background-image: url("../images/bg.jpg");
+    background-size: 100%;
+    position: relative;
+    color: #fff;
+    box-shadow: 0px 0px 10px 1000px #33211de4 inset;
+    display: flex;
+    justify-content: space-between;
+}
+.five::before{
+    content: "";
+    width: 100%;
+    height: 30px;
+    background-image: url("../images/overlay-top.png");
+    position: absolute;
+    top: -15px;
+}
+.five::after{
+    content: "";
+    width: 100%;
+    height: 30px;
+    background-image: url("../images/overlay-bottom.png");
+    position: absolute;
+    bottom: -17px;
+}
+.five-left{
+    width: 40%;
+    margin-top: 10%;
+    padding-left: 5%;
+}
+.five-left span{
+    font-size: 70px;
+    font-weight: 700;
+    color: #DA9F5B;
+}
+.five-left h3{
+    font-size: 40px;
+    font-weight: 300;
+    margin: 20px 0px;
+}
+.five-left p{
+    line-height: 25px;
+}
+.five-left ul li{
+    line-height: 40px;
+    font-size: 20px;
+}
+.five-left ul li i{
+    color: #DA9F5B;
+    margin-right: 10px;
+}
+.five-right{
+    width: 50%;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #33211dd0;
+}
+.five-right h2{
+    font-size: 40px;
+}
+.five form{
+    width: 85%;
+    display: flex;
+    flex-direction: column;
+}
+.five form input,form select{
+    width: 85%;
+    height: 45px;
+    margin: 10px 0px;
+    padding-left:15px;
+    font-size: 18px;
+    background-color: inherit;
+    border: 1px solid #DA9F5B;
+    outline: none;
+}
+#booking{
+    background-color: #DA9F5B;
+    cursor: pointer;
+}
+/* .................section six........... */
+.six{
+    width: 90%;
+    margin: auto;
+}
+.con-6{
+    display: flex;
+    justify-content: space-around;
+    padding: 30px 0px;
+    margin: 30px 0px;
+}
+.clint{
+    width: 30%;
+}
+.image{
+    width: 100%;
+    display: flex;
+}
+.image img{
+    width: 80px;
+    height: 80px;
+}
+.word{
+    text-align: start;
+    margin-left: 20px;
+}
+.word h2,.word h4{
+    margin: 10px 0px;
+    font-weight: 200;
+}
+.word h4{
+    font-style: italic;
+    color: #555;
+}
+.clint p{
+    text-align: start;
+    color: #555;
+    line-height: 25px;
+}
+/* ...............footer............... */
+footer::before{
+    content: "";
+    width: 100%;
+    height: 30px;
+    background-image: url("../images/overlay-top.png");
+    position: absolute;
+    top: -16px;
+}
+footer{
+    width: 100%;
+    background-image: url("../images/bg.jpg");
+    background-size: cover;
+    background-repeat:no-repeat ;
+    background-position: 50%;
+    box-shadow: 0px 0px 10px 500px #33211dd8 inset;
+    color: #fff;
+    position: relative;
+    padding: 50px 0px 20px;
+}
+.last-con{
+    width: 95%;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+.last-con > div{
+    width: 24%;
+}
+footer h2{
+    font-weight: 300;
+}
+footer ul{
+    line-height: 35px;
+}
+footer ul li i{
+    margin-right: 10px;
+}
+footer .icons a{
+    color: #fff;
+    padding: 13px 15px;
+    border: 1px solid #fff;
+    transition: 0.8s;
+}
+footer .icons a:hover{
+    color: black;
+    background-color: #fff;
+}
+footer .icons{
+    margin-top: 25px;
+}
+footer form #email{
+    width: 150px;
+    height: 15px;
+    font-size: 18px;
+} 
+footer form #sign{
+    width: 80px;
+    height: 55px;
+    font-size: 18px;
+}
+.last{
+    text-align: center;
+    border-top: 0.9px solid #ffffff2b;
+    font-size: 18px;
+}
+.last a{
+    color: #DA9F5B;
+    font-weight: bold;
+}
+.last a:hover{
+    color: #ed9c3f;
+    text-decoration: underline;
+}
